@@ -1,0 +1,104 @@
+body {
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+}
+
+.headbar{
+  height: 100px;
+  width: 100%;
+  background-color: gray;
+  position: fixed;
+}
+
+.main{
+  height: calc(100vh - 100px);
+  width: 100%;
+  padding-top: 100px;
+  background-color: green;
+  display: flex;
+}
+
+.chat-side{
+  width: 300px;
+  height: 100%;
+  background-color: #AAAAAA;
+  position: relative;
+}
+
+.chat-main{
+  width: calc(100vw - 300px);
+  height: 100%;
+  background-color: #C4C4C4;
+  position: relative;
+}
+
+.form{
+  height: 90px;
+  width: 100%;
+  background-color: #515151;
+  position: absolute;
+  bottom: 0px;
+  position: fixed;
+}
+
+.groups{
+  width: 280px;
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+.groups-item{
+  width: 100%;
+  height: 130px;
+  background-color: #C4C4C4;
+}
+
+.messages{
+  height: calc(100vh - 90px);
+  width: calc(100% - 50px);
+  position: absolute;
+  left: 25px;
+  padding-top: 30px;
+}
+
+.message{
+  width: 100%;
+  height: 150px;
+  background-color: #DDDDDD;
+}
+
+.texts{
+  height: 70px;
+  width: calc(100vw - 320px);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+}
+
+.texts-type{
+  height: 70px;
+  width: calc(100vw - 460px);
+  background-color:#FFFFFF;
+}
+
+.texts-btn{
+  height: 70px;
+  width: 130px;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: 0px;
+}
